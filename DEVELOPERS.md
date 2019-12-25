@@ -1,3 +1,12 @@
+# Setting up the Python Environment
+- Install anaconda
+- Open Anaconda prompt
+- Create a new virtual environment with the command ``conda create --name tensorflow python=3.6``.
+- type ``activate``
+- follow native installation
+-  run ```set PYTHONIOENCODING=UTF-8``` instead of ```export```
+
+
 # Installation
 
 Git clone this repository, and `cd` into directory for remaining commands

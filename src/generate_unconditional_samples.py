@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 import fire
 import json
 import os
