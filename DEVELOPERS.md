@@ -2,7 +2,7 @@
 - Install anaconda
 - Open Anaconda prompt
 - Create a new virtual environment with the command ``conda create --name tensorflow python=3.6``.
-- type ``activate``
+- type ``conda activate tensorflow``
 - follow native installation
 -  run ```set PYTHONIOENCODING=UTF-8``` instead of ```export```
 
