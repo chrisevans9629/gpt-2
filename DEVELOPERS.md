@@ -5,7 +5,20 @@
 - type ``conda activate tensorflow``
 - follow native installation
 -  run ```set PYTHONIOENCODING=UTF-8``` instead of ```export```
+- to deactivate, type ```conda deactivate```
 
+# Troubleshooting
+If you get this error:
+```
+ERROR: Could not find a version that satisfies the requirement tensorflow==1.12.0 (from versions: none)
+ERROR: No matching distribution found for tensorflow==1.12.0
+```
+Look here
+https://stackoverflow.com/questions/38896424/tensorflow-not-found-using-pip
+Here is the solution:
+https://github.com/openai/gpt-2/issues/189
+Upgrade to 1.14.0
+- use pip instead of pip3
 
 # Installation
 
